@@ -1,0 +1,32 @@
+{
+  "name": "tuplespace",
+  "version": "0.0.0",
+  "description": "Javascript Tuple Space",
+  "main": "tuplespace.js",
+  "dependencies": {
+    "backbone": "1.1.0",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "chai": "~1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tjwebb/tuplespace.git"
+  },
+  "keywords": [
+    "tuplespace",
+    "xtuple",
+    "backbone",
+    "events",
+    "xtuple"
+  ],
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "author": "Travis Webb",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "49f9a192b9fa772653c85fde28c97c4f51c3b131"
+}
