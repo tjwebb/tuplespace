@@ -5,7 +5,7 @@ describe('T.space', function () {
   describe('sanity', function () {
     it('exists', function () {
       assert.ok(T);
-      assert.ok(T.space);
+      assert.ok(T.Space);
     });
   });
 });
