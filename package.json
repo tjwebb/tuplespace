@@ -17,13 +17,12 @@
   },
   "keywords": [
     "tuplespace",
-    "xtuple",
     "backbone",
     "events",
     "xtuple"
   ],
   "scripts": {
-    "test": "mocha spec"
+    "test": "mocha spec -R spec"
   },
   "author": "Travis Webb",
   "license": "BSD",
