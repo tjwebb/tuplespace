@@ -1,31 +1,35 @@
 {
   "name": "tuplespace",
   "version": "0.0.0",
-  "description": "Javascript Tuple Space",
+  "description": "Event-based implementation of Tuple Spaces",
   "main": "tuplespace.js",
   "dependencies": {
-    "backbone": "1.1.0",
-    "underscore": "~1.5.2"
+    "backbone": "~1.1.2",
+    "congruence": "~1.2.4",
+    "fnv-plus": "~1.1.0"
   },
-  "devDependencies": {
-    "mocha": "~1.14.0",
-    "chai": "~1.8.1"
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha -R spec spec/tuplespace.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/tjwebb/tuplespace.git"
   },
   "keywords": [
-    "tuplespace",
-    "backbone",
+    "associative",
+    "object",
+    "space",
+    "persistent",
     "events",
-    "xtuple"
+    "object",
+    "comparison",
+    "tuple",
+    "spaces"
   ],
-  "scripts": {
-    "test": "mocha spec -R spec"
-  },
   "author": "Travis Webb",
   "license": "BSD",
-  "readmeFilename": "README.md",
-  "gitHead": "49f9a192b9fa772653c85fde28c97c4f51c3b131"
+  "bugs": {
+    "url": "https://github.com/tjwebb/tuplespace/issues"
+  }
 }
