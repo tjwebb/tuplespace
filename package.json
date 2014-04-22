@@ -1,6 +1,6 @@
 {
   "name": "tuplespace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Event-based implementation of Tuple Spaces",
   "main": "tuplespace.js",
   "dependencies": {
