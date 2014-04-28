@@ -2,20 +2,19 @@
   "name": "tuplespace",
   "version": "0.0.2",
   "description": "Event-based implementation of Tuple Spaces",
-  "main": "tuplespace.js",
+  "main": "index.js",
   "dependencies": {
-    "congruence": "^1.4.5",
+    "congruence": "^1.5.2",
     "fnv-plus": "^1.2.4",
     "spine": "^1.3.1",
     "lodash": "^2.4.1",
-    "q": "^1.0.1"
+    "q": "~2"
   },
   "devDependencies": {
-    "assert": "^1.1.1",
     "mocha": "^1.18.2"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha -R spec spec/"
+    "test": "./node_modules/.bin/mocha --harmony -R spec spec/"
   },
   "repository": {
     "type": "git",
